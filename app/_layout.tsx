@@ -75,9 +75,9 @@ export default function RootLayout() {
      
       </View>
 
-      
 
-      
+
+
 
   );
   

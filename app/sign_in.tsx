@@ -14,14 +14,14 @@ const SignInScreen = ({ navigation }) => {
     let hasError = false;
 
     if (email.trim() === '') {
-      setEmailError('Email is required');
+      setEmailError('Chưa điển Email');
       hasError = true;
     } else {
       setEmailError('');
     }
 
     if (password.trim() === '') {
-      setPasswordError('Password is required');
+      setPasswordError('Chưa điển mật khẩu');
       hasError = true;
     } else {
       setPasswordError('');

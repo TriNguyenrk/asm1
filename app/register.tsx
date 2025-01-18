@@ -13,7 +13,7 @@ const RegisterScreen = ({ navigation }) => {
   const [passwordError, setPasswordError] = useState('');
   const [retypePasswordError, setRetypePasswordError] = useState('');
 
-  // Hàm đăng ký
+  // ĐĐăng ký
   const handleRegister = () => {
     let hasError = false;
 
